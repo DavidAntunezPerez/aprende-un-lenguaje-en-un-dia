@@ -102,6 +102,24 @@ object main extends App {
 
 ### 2. Pirámide
 
+***Código del programa***
+
+```scala
+object PrintTriangle {
+  def main(args: Array[String]) {
+    print("Introduce la altura de la pirámide: ")
+    var altura: Int = scala.io.StdIn.readInt()
+    var planta: Int = 1
+    var longitudLinea: Int = 1
+    var espacios: Int = altura - 1
+    for (x <- 1 until 6) {
+      println("#" * x)
+    }
+  }
+}
+```
+
+
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ### 3. Arrays y números aleatorios
