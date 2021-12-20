@@ -107,7 +107,7 @@ object main extends App {
 ```scala
 import scala.io.StdIn.readLine
 object Main extends App{
-    var alturaIntroducida :Int = 10
+    var alturaIntroducida :Int = Console.readInt
     println("Introduzca la altura de la pirámide: ")
     var planta :Int = 1
     var longitudDeLinea :Int = 1
