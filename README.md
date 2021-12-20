@@ -92,6 +92,11 @@ Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
 
 **Output:**
+```
+object main extends App {
+   println("Hola mundo")
+ }
+```
 
 ![image](./images/outputhelloworld.png)
 
