@@ -78,7 +78,7 @@ Página oficial: https://www.scala-lang.org/
 
 Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
 
-Para instalar este lenguaje hemos tenido que instalar varias extensiones en VSCode llamadas Scala(Metals) y Scala Syntax(official) , también, desde la página web oficial de Scala hemos tenido que instalar [SBT](https://www.scala-lang.org/download/scala3.html)
+Para instalar este lenguaje hemos tenido que instalar varias extensiones en VSCode llamadas Scala(Metals) y Scala Syntax(official) , también, desde la página web oficial de Scala hemos tenido que instalar [SBT](https://www.scala-lang.org/download/scala3.html) y JDK 11
 
 ## Poniendo en práctica el lenguaje
 
