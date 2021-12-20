@@ -31,7 +31,7 @@ Escribe aquí los miembros del grupo. El primero es el representante o encargado
 * David Antúnez Pérez
 * Sergio Morales García
 * Francisco Sicilia Pérez
-* Albeto Parra Toval
+* Alberto Parra Toval
 
 ## Lenguaje de programación
 
