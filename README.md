@@ -144,16 +144,16 @@ Realiza un programa que rellene un array (o una estructura similar) con 20 núme
 **Código del programa:** 
 
 ```scala
-import Array._
-
-object main {
-  def n_rands(n: Int) = {
-    val r = new scala.util.Random
-    1 to n map { _ => r.nextInt(200) }
-    for (x <- 1 until 20) {
-      println(r)
-    }
-  }
+import util.Random.nextInt
+object Main extends App{
+    // Declaramos el Array
+    var z:Array[Int] = new Array[Int](20)
+    println("ARRAY ORIGINAL:")
+    for( i <- 0 to 20 ){
+            z(i) = scala.util.Random.nextInt(200)
+            print(z(i) + " ")
+        }
+    println("ARRAY DE SOLO NÚMEROS PRIMOS:")
 }
 ```
 
