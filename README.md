@@ -126,6 +126,20 @@ Dada una altura introducida por el usuario, realiza un programa que pinte una pi
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
 
+```scala
+import Array._
+
+object main {
+  def n_rands(n: Int) = {
+    val r = new scala.util.Random
+    1 to n map { _ => r.nextInt(200) }
+    for (x <- 1 until 20) {
+      println(r)
+    }
+  }
+}
+```
+
 ## Presentación de resultados
 
 Cada equipo explicará al resto de la clase lo aprendido durante la realización del ejercicio. Todos los miembros de cada equipo deben participar en la explicación. Se puede utilizar como material de base para la presentación el repositorio de GitHub.
