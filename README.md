@@ -49,6 +49,7 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 Scala es un lenguaje de programación multi-paradigma, creado en 2003 por Martin Odersky un informático alemán y profesor de métodos de programación en la École Polytechnique Fédérale de Lausanne en Suiza. Este programa fue diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual se ejecuta en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
 
 Las principales ventajas de este lenguaje de programación son:
+
 Orientado a objetos → Scala es un lenguaje de programación puro orientado a objetos, en el sentido de que cada valor es un objeto. El tipo y comportamiento de los objetos se describe por medio de clases y traits. La abstracción de clases se realiza extendiendo otras clases y usando un mecanismo de composición basado en mixins como un reemplazo limpio de la herencia múltiple.
 
 Lenguaje funcional → Scala también posee características propias de los lenguajes funcionales. En Scala las funciones son valores de primera clase, soportando funciones anónimas, orden superior, funciones anidadas y currificación. Scala viene integrado de fábrica con la técnica de pattern matching para modelar tipos algebraicos usados en muchos lenguajes funcionales.
