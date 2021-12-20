@@ -175,6 +175,7 @@ object Main extends App{
 
 **OUTPUT:**
 
+![image](./images/arrays.png)
 
 ## Presentación de resultados
 
