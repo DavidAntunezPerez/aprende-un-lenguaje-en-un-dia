@@ -111,7 +111,7 @@ Dada una altura introducida por el usuario, realiza un programa que pinte una pi
 ```scala
 import scala.io.StdIn.readLine
 object Main extends App{
-    var alturaIntroducida :Int = Console.readInt
+    var alturaIntroducida :Int = scala.io.StdIn.readInt()
     println("Introduzca la altura de la pirámide: ")
     var planta :Int = 1
     var longitudDeLinea :Int = 1
