@@ -86,6 +86,8 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 ### 1. ¡Hola mundo!
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
+![image](./images/helloworld.png)
+
 
 ### 2. Pirámide
 
