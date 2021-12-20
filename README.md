@@ -102,6 +102,8 @@ object main extends App {
 
 ### 2. Pirámide
 
+Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+
 **Código del programa**
 
 ```scala
@@ -129,8 +131,9 @@ object Main extends App{
 }
 ```
 
+**Output:**
 
-Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+![image](./images/piramide.png)
 
 ### 3. Arrays y números aleatorios
 
