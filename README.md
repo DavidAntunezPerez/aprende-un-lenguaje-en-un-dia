@@ -50,8 +50,11 @@ Scala es un lenguaje de programación multi-paradigma, creado en 2003 por Martin
 
 Las principales ventajas de este lenguaje de programación son:
 Orientado a objetos → Scala es un lenguaje de programación puro orientado a objetos, en el sentido de que cada valor es un objeto. El tipo y comportamiento de los objetos se describe por medio de clases y traits. La abstracción de clases se realiza extendiendo otras clases y usando un mecanismo de composición basado en mixins como un reemplazo limpio de la herencia múltiple.
+
 Lenguaje funcional → Scala también posee características propias de los lenguajes funcionales. En Scala las funciones son valores de primera clase, soportando funciones anónimas, orden superior, funciones anidadas y currificación. Scala viene integrado de fábrica con la técnica de pattern matching para modelar tipos algebraicos usados en muchos lenguajes funcionales.
+
 Tipificado estático → Scala está equipado con un sistema de tipos expresivo que refuerza a que las abstracciones de tipos se usen en forma coherente y segura.
+
 Escalable → Uno de los objetivos de Scala es tener un lenguaje que puede crecer y escalar con la demanda. Scala es adecuado para utilizar como un lenguaje de script o para realizar aplicaciones empresariales. La abstracción de componentes, la sintaxis sucinta, y el soporte para los paradigmas de orientación a objetos y funcional, hacen al lenguaje escalable.
 
 Extensibilidad → Scala se diseñó teniendo en mente el hecho de que en la práctica el desarrollo de aplicaciones requiere a menudo de extensiones específicas del lenguaje. Para ello, Scala proporciona una combinación única de mecanismos que hacen fácil y sin problemas agregar construcciones nuevas al lenguaje en forma de bibliotecas.
