@@ -105,17 +105,27 @@ object main extends App {
 **Código del programa**
 
 ```scala
-object PrintTriangle {
-  def main(args: Array[String]) {
-    print("Introduce la altura de la pirámide: ")
-    var altura: Int = scala.io.StdIn.readInt()
-    var planta: Int = 1
-    var longitudLinea: Int = 1
-    var espacios: Int = altura - 1
-    for (x <- 1 until 6) {
-      println("#" * x)
+import scala.io.StdIn.readLine
+object Main extends App{
+    var alturaIntroducida :Int = 10
+    println("Introduzca la altura de la pirámide: ")
+    var planta :Int = 1
+    var longitudDeLinea :Int = 1
+    var espacios :Int = alturaIntroducida - 1;
+    while(planta <= alturaIntroducida){
+        // inserta espacios
+        for( i <- 0 until espacios ){
+            print(" ")
+        }
+        // pinta la linea
+        for( j <- 0 until longitudDeLinea ){
+            print("*")
+        }
+        println()
+        planta = planta + 1
+        espacios = espacios -1
+        longitudDeLinea = longitudDeLinea + 2
     }
-  }
 }
 ```
 
