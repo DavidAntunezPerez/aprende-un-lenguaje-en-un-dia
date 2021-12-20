@@ -69,6 +69,7 @@ Links a Manuales de Scala
 
 Manual: https://www.scala-lang.org/docu/files/ScalaTutorial-es_ES.pdf
 https://www.clubdetecnologia.net/blog/2015/que-es-scala/
+
 Página oficial: https://www.scala-lang.org/
 
 
