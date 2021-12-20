@@ -61,7 +61,9 @@ Productividad → Gracias a su sistema de inferencia de tipos y otras caracterí
 Interoperabilidad con Java → Scala es compilado directamente a Java bytecode, corriendo en la Java Virtual Machine, aprovechando el poder y la madurez de la JVM, su colector de basura y las bien entendidas técnicas de despliegue. Al aprovechar esto, apenas hay incidencia en la marcha del proyecto. Las operaciones de equipo no verán la diferencia. Los desarrolladores seguirán trabajando con sus herramientas, pero escribiendo código más corto, más rápido, más escalable, más correcto.
 
 Salidas Profesionales → Aprender Scala ofrece un abanico amplio de opciones de trabajo, pudiendo optar por el mundo Big Data, alistarte en el ejército backend donde puedes procesar millones de datos, o trabajando en sistemas.
+
 Links a Manuales de Scala
+
 Manual: https://www.scala-lang.org/docu/files/ScalaTutorial-es_ES.pdf
 https://www.clubdetecnologia.net/blog/2015/que-es-scala/
 Página oficial: https://www.scala-lang.org/
