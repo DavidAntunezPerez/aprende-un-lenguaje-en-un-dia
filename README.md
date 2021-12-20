@@ -149,13 +149,32 @@ object Main extends App{
     // Declaramos el Array
     var z:Array[Int] = new Array[Int](20)
     println("ARRAY ORIGINAL:")
-    for( i <- 0 to 20 ){
+    for( i <- 0 until 20 ){
             z(i) = scala.util.Random.nextInt(200)
             print(z(i) + " ")
         }
+    println()
     println("ARRAY DE SOLO NÚMEROS PRIMOS:")
+    // Comprobar que sea primo y hacer print por pantalla
+    for( j <- 0 until 20 ){
+            var numInt :Int = z(j)
+            var contDivisores :Int = 2
+            var pregPrimo : Boolean = true; // presupone que el número es primo
+            do{
+                if(numInt % contDivisores == 0 && numInt != contDivisores){
+                    pregPrimo = false // Si encuentra un divisor ya no es primo
+                }
+                contDivisores = contDivisores + 1
+            }while(contDivisores < numInt && pregPrimo == true)
+            if(pregPrimo){
+            print(z(j) + " ")
+            }
+  }
 }
 ```
+
+**OUTPUT:**
+
 
 ## Presentación de resultados
 
