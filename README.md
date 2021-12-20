@@ -28,9 +28,10 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 
 Escribe aquí los miembros del grupo. El primero es el representante o encargado.
 
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
+* David Antúnez Pérez
+* Sergio Morales García
+* Francisco Sicilia Pérez
+* Albeto Parra Toval
 
 ## Lenguaje de programación
 
